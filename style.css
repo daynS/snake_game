@@ -1,0 +1,28 @@
+.grid {
+    background-color: white;
+    height: 900px;
+    width: 62%;
+    margin: 20px auto;
+}
+.square {
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    border: 1px solid white;
+    float: left;
+}
+
+.touched {
+	background-color: red;
+}
+
+#reset{
+	text-align: center;
+	margin-top: 25px;
+}
+
+.container{
+	margin: auto auto;
+	height: 100%;
+    width: 75%;
+}
