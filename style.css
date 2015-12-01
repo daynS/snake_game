@@ -1,23 +1,47 @@
 .grid {
     background-color: white;
-    height: 900px;
-    width: 62%;
+    height: 100%;
+    width: 40%;
     margin: 20px auto;
 }
 .square {
     background-color: blue;
-    height: 20px;
-    width: 20px;
-    border: 1px solid white;
+    height: 17px;
+    width: 17px;
+    border: 1px solid black;
     float: left;
 }
 
-.touched {
-	background-color: red;
+.snake{
+    background-color: red;
+}
+
+.head{
+    background-color: orange;
+}
+
+.food{
+    background-color: white;
+}
+
+.centerize {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#game-area{
+    margin-top: 50px;
+    text-align: center;
+   
+}
+
+h3{
+    font-size: 1.5em;
+    margin-top: 250px;
 }
 
 #reset{
-	text-align: center;
 	margin-top: 25px;
 }
 
@@ -25,4 +49,8 @@
 	margin: auto auto;
 	height: 100%;
     width: 75%;
+}
+
+.touched {
+    background-color: red;
 }
